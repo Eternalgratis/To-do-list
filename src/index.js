@@ -1,10 +1,10 @@
-import todoList from "./modules/task.js";
-import "./index.css";
+import todoList from './modules/task.js';
+import './index.css';
 
-const todo = document.getElementById("subsequent-list");
+const todo = document.getElementById('subsequent-list');
 // console.log(todo);
 const taskArr = () => {
-  let taskList = "";
+  let taskList = '';
 
   for (let i = 0; i < todoList.length; i += 1) {
     const list = `
@@ -18,7 +18,6 @@ const taskArr = () => {
     taskList += list;
   }
   todo.innerHTML = taskList;
-  console.log(todo);
 };
 taskArr();
 
