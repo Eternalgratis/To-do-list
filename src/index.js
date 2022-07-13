@@ -1,14 +1,26 @@
- import './index.css'
- 
- const addTask = document.querySelector('#add-task');
- const addInput = document.querySelector('#add');
- const submitBtn = document.querySelector('#submit-btn');
+import todoList from "./modules/task.js";
+import "./index.css";
 
- addTask.addEventListener('submit', (e) => {
-    e.preventDefault();
-    if (addInput.value === ''){
-        
-    } else {
-        
-    }
- })
+const todo = document.getElementById("subsequent-list");
+// console.log(todo);
+const taskArr = () => {
+  let taskList = "";
+
+  for (let i = 0; i < todoList.length; i += 1) {
+    const list = `
+            <div class="todo-list">
+            <input type="checkbox" class="check" value="task" ${todoList[i].completed}>
+            <label for="item">${todoList[i].description}</label>
+            <i id="dot" class="fa-solid fa-ellipsis-vertical"></i>
+            <button><i class="fa-solid fa-trash-can"></i></button>
+            </div>
+        `;
+    taskList += list;
+  }
+  todo.innerHTML = taskList;
+  console.log(todo);
+};
+taskArr();
+
+// const  = document.querySelector('#subsequent-list');
+// subsequentList.appendChild(todo);
