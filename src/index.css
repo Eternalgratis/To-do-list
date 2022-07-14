@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 90%;
+  background-color: #fff;
+  background-color: rgb(138, 41, 89);
+}
+
+.header {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+#add-task {
+  width: 90%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.todo-list {
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+  justify-content: space-between;
+}
+
+.fa-solid {
+  float: right;
+}
