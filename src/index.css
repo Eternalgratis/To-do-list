@@ -63,7 +63,6 @@ body {
 
 #addtolist {
   background-color: rgb(138, 41, 89);
-  /* color: #111; */
   width: 60%;
   padding: 16px;
   font-size: 20px;
@@ -96,7 +95,6 @@ li {
 input[type=checkbox]:checked + .todoListItem {
   text-decoration: line-through;
 }
-
 
 .list-of-task {
   color: #fff;
