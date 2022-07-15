@@ -12,11 +12,11 @@
     <header>
       <div id="taskList">
         <h1>Today's task</h1>
-        <i  id="rotate" class="fa-solid fa-rotate"></i>
+        <i id="rotate" class="fa-solid fa-rotate"></i>
       </div>
     </header>
-    <form id="todoform" action="#https://formspree.io/f/mpzbbknz">
-        <input type="text" name="name" id="addtolist" placeholder="add your task">
+    <form id="todoform" action="">
+        <input type="text" name="addtolist" id="addtolist" placeholder="add your task">
         <button type="submit" id="taskbtn"><span id="enter" class="material-symbols-outlined">
             subdirectory_arrow_left
             </span>
@@ -24,11 +24,9 @@
     </form>
     <div id="list-item">
         <h1>Daily Routine</h1>
-        <div id="todo-trash">
-            <ul id="toDoInputList">
-            </ul>
+        <div class="todo-trash">
       </div>
-      <p id="clear">clear completed</p>
+      <button type="submit" class="clear">clear completed</button>
     </div>
 <script src="/src/index.js"></script>
 </body>
