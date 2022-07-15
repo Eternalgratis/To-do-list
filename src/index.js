@@ -1,10 +1,10 @@
 import './index.css';
 import TodoList from './modules/task.js';
+import { clearAll, cleartodos } from './modules/clear.js';
 
 const taskstore = new TodoList();
 
 const textInput = document.querySelector('#addtolist');
-
 textInput.addEventListener('keypress', (e) => {
   if (e.key === 'Enter' && textInput.value) {
     e.preventDefault();
@@ -13,3 +13,5 @@ textInput.addEventListener('keypress', (e) => {
   }
 });
 window.addEventListener('load', taskstore.displayTask);
+
+clearAll.addEventListener('click', () => { cleartodos(taskstore); });
