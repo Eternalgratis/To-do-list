@@ -23,6 +23,7 @@ body {
 
 #todoform {
   border: 2px solid #fff;
+  margin: 10px;
 }
 
 .todo-div {
@@ -52,6 +53,7 @@ body {
 
 #taskList {
   display: flex;
+  padding: 10px;
 }
 
 #rotate {
@@ -75,7 +77,7 @@ body {
   background-color: rgb(170, 106, 138);
   z-index: 10;
   height: 400px;
-  margin-top: 10%;
+  margin-top: 5%;
   border-radius: 5px;
 }
 
