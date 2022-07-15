@@ -4,7 +4,9 @@ class TodoList {
   }
 
   addTask = (item) => {
-    this.taskLiskArr.push({ description: item, completed: false, index: this.taskLiskArr.length + 1 });
+    this.taskLiskArr.push({
+      description: item, completed: false, index: this.taskLiskArr.length + 1,
+    });
     this.populateLocalStorage();
     this.displayTask();
   }
