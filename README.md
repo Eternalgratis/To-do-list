@@ -3,6 +3,10 @@
 # AWESOMEBOOKSES6
 This project allows organize your schedule with the add and remove features and it is built while working in the official guidelines of webpack. Webpack is a simple yet powerful boilerplate.
 
+## Live Demo
+[Link to Live Demo](https://eternalgratis.github.io/To-do-list/)
+
+
 ## To clone this Project
 
 step 1: Clone this repo locally using git in the command line and the following command
